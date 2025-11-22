@@ -2,13 +2,13 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * 测试类：L2023111723_X_Test
+ * 测试类：L2023111723_13_Test
  * 测试用例设计原则：
  * - 等价类划分：将输入划分为有效等价类和无效等价类
  * - 边界值分析：测试数组边界情况
  * - 全覆盖：确保所有颜色(0,1,2)都被测试到
  */
-public class L20241234_1_Test {
+public class L2023111723_13_Test {
     
     /**
      * 测试目的：验证正常情况下的颜色分类
@@ -80,3 +80,4 @@ public class L20241234_1_Test {
         assertArrayEquals(expected, nums);
     }
 }
+
